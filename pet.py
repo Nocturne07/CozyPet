@@ -6,7 +6,7 @@ class Pet:
         self.name = name
         self.species = species
         self.health = 70
-        self.hunger = 50
+        self.hunger =70
         self.happiness = 50
         self.mood = 50
         self.alive = True
@@ -17,23 +17,23 @@ class Pet:
         Feed pet with edible item and adjust stats.
         '''
         if edible_item == 'kibble':
-            if self.hunger + 30 > 100:
+            if self.hunger + 15 > 100:
                 print(f"{self.name} is too full! Can't eat more.")
-            self.hunger = min(100, self.hunger + 30)
+            self.hunger = min(100, self.hunger + 15)
 
         elif edible_item == 'tin':
-            if self.hunger + 20 > 100:
+            if self.hunger + 10 > 100:
                 print(f"{self.name} is too full! Can't eat more.")
-            self.hunger = min(100, self.hunger + 20)
+            self.hunger = min(100, self.hunger + 10)
 
             if  self.mood + 5 > 100:
                 print(f"{self.name} is already in a great mood!")
             self.mood = min(100, self.mood + 5)
 
         elif edible_item == 'salmon':
-            if self.hunger + 15 > 100:
+            if self.hunger + 5 > 100:
                 print(f"{self.name} is too full! Can't eat more.")
-            self.hunger = min(100, self.hunger + 15)
+            self.hunger = min(100, self.hunger + 5)
 
             if  self.mood + 10 > 100:
                 print(f"{self.name} is already in a great mood!")
