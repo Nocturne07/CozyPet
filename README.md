@@ -8,9 +8,9 @@ CozyPet is a simple yet engaging command-line game where players can raise and c
 
 # 🎮 Features
 
-- Choose from 5 species: `Dog`, `Cat`, `Rabbit`, `Chipmunk`, `Raccoon`
-- Feed your pet with different food: `kibble`, `tin`, `salmon`, or `medicine`
-- Play with fun toys: `ball`, `laser pointer`, `squeaky toy`
+- Choose from 5 species: Dog, Cat, Rabbit, Chipmunk, Raccoon
+- Feed your pet with different food: kibble, tin, salmon, or medicine
+- Play with fun toys: ball, laser pointer, squeaky toy
 - Random events (illness, dreams, mood swings, and more)
 - Track pet status: Health, Hunger, Happiness, Mood（0～100）
 - Pet can die or run away if not treated well (status <= 0)
@@ -37,7 +37,7 @@ CozyPet is a simple yet engaging command-line game where players can raise and c
 ---
 
 # 🎲 Random Events
-The end of each action is accompanied by a random event.This is what is most likely to cause you to lose the game.
+The end of each action is accompanied by a random event. This is what is most likely to cause you to lose the game.
 |  Event Description                                 | Effect                   |
 | -------------------------------------------------- | ------------------------ |
 | **[Pet] got sick!**                                | Health -20               |
