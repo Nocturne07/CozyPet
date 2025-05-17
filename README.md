@@ -44,12 +44,12 @@ The end of each action is accompanied by a random event.This is what is most lik
 | **[Pet] is angry!**                                | Mood -20                 |
 | **You forgot to feed [Pet] before going to work!** | Hunger -20               |
 | **You were on a business trip for three days.**    | Happiness -20            |
-| **Your pet had a strange dream...**                | Mood -10                 |
-| **You praised [Pet].**                             | Happiness +15            |
-| **[Pet] found a hidden snack!**                    | Hunger +20               |
-| **[Pet] exercises by itself at home!**             | Health +10               |
-| **[Pet] had a good dream.**                        | Mood +10                 |
-| **You brought [Pet] outside to play today.**       | Happiness +10, Hunger -5 |
+| **Your pet had a strange dream...**                | Mood -20                 |
+| **You praised [Pet].**                             | Happiness +5             |
+| **[Pet] found a hidden snack!**                    | Hunger +5                |
+| **[Pet] exercises by itself at home!**             | Health +5                |
+| **[Pet] had a good dream.**                        | Mood +5                  |
+| **You brought [Pet] outside to play today.**       | Happiness +5, Hunger -5  |
 
 
 ---
