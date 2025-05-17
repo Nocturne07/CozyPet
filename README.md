@@ -21,9 +21,9 @@ CozyPet is a simple yet engaging command-line game where players can raise and c
 ## 🍽️ Edible Items
 | Item Name    | Effect                   |
 | ------------ | ------------------------ |
-| **kibble**   | +30 Hunger.              |
-| **tin**      | +20 Hunger, +5 Mood.     |
-| **salmon**   | +15 Hunger, +10 Mood.    |
+| **kibble**   | +15 Hunger.              |
+| **tin**      | +10 Hunger, +5 Mood.     |
+| **salmon**   | +5 Hunger, +10 Mood.     |
 | **medicine** | +25 Health, -10 Hunger.  |
 
 ## 🧸 Toys
