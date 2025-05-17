@@ -102,28 +102,28 @@ class Pet:
             self.happiness -= 20
 
         elif roll == 5:
-            print("💭 Your pet had a strange dream... Mood dropped. Mood - 10")
-            self.mood -= 10
+            print("💭 Your pet had a strange dream... Mood dropped. Mood - 20")
+            self.mood -= 20
         
         elif roll == 6:
-            print(f"😍 You praised {self.name}. Happiness +15.")
-            self.happiness = min(100, self.happiness + 15)
+            print(f"😍 You praised {self.name}. Happiness + 5.")
+            self.happiness = min(100, self.happiness + 5)
         
         elif roll == 7:
-            print(f"🍬 {self.name} found a hidden snack! Hunger +20.")
-            self.hunger = min(100, self.hunger + 20)
+            print(f"🍬 {self.name} found a hidden snack! Hunger + 5.")
+            self.hunger = min(100, self.hunger + 5)
 
         elif roll == 8:
-            print(f"💪 {self.name} exercises by itself at home! Health +10.")
-            self.health = min(100, self.health + 10)
+            print(f"💪 {self.name} exercises by itself at home! Health + 5.")
+            self.health = min(100, self.health + 5)
         
         elif roll == 9 :
-            print("🌈 Have a good dream! Mood +10.")
-            self.mood = min(100, self.mood + 10)
+            print("🌈 Have a good dream! Mood + 5.")
+            self.mood = min(100, self.mood + 5)
 
         elif roll == 10:
             print(f"🎡 You brought {self.name} outside to play today.")
-            self.happiness = min(100, self.happiness + 10)
+            self.happiness = min(100, self.happiness + 5)
             self.hunger -= 5
     
 
