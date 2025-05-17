@@ -35,6 +35,8 @@ def main():
         else:
             print("Invalid input")
 
+        print()
+        print('Random Event: ')
         pet.random_event()
         print()
         pet.check_alive()
