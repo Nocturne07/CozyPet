@@ -1,6 +1,6 @@
 # CozyPet
 Virtual pet game based on python
-# 🐾 Python Virtual Pet Game
+# 🐾 Virtual Pet Game
 
 A simple text-based **virtual pet simulator** built with Python.  
 You can name your pet, choose its species, feed it, play with it, and keep it happy and healthy.  
