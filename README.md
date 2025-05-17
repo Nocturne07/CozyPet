@@ -1,6 +1,8 @@
 # 🐾 CozyPet
 This project was developed for the **COMP9001 Final Project**.  
-CozyPet is a simple yet engaging command-line game where players can raise and care for a virtual pet. Choose from a variety of animals like a dog, cat, rabbit, chipmunk, or raccoon. Keep your pet alive and happy by feeding it, playing with it, and handling unexpected events.
+CozyPet is a simple yet engaging command-line game where players can raise and care for a virtual pet. Choose from a variety of animals. Keep your pet alive and happy by feeding it, playing with it, and handling unexpected events.
+
+**Game Core**: Choose the right game props according to the unexpected events to ensure that your pet can grow up happily!
 
 ---
 
@@ -11,7 +13,7 @@ CozyPet is a simple yet engaging command-line game where players can raise and c
 - Play with fun toys: `ball`, `laser pointer`, `squeaky toy`
 - Random events (illness, dreams, mood swings, and more)
 - Track pet status: Health, Hunger, Happiness, Mood（0～100）
-- Pet can die or run away if not treated well
+- Pet can die or run away if not treated well (status <= 0)
 
 ---
 
