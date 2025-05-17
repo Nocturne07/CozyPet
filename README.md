@@ -10,7 +10,7 @@ CozyPet is a simple yet engaging command-line game where players can raise and c
 - Feed your pet with different food: `kibble`, `tin`, `salmon`, or `medicine`
 - Play with fun toys: `ball`, `laser pointer`, `squeaky toy`
 - Random events (illness, dreams, mood swings, and more)
-- Track pet status: **Health**, **Hunger**, **Happiness**, **Mood**（0～100）
+- Track pet status: Health, Hunger, Happiness, Mood（0～100）
 - Pet can die or run away if not treated well
 
 ---
@@ -30,6 +30,24 @@ CozyPet is a simple yet engaging command-line game where players can raise and c
 | **ball**          | +10 Happiness, -10 Hunger.         |
 | **laser pointer** | +15 Mood, -5 Health, -10 Hunger.   |
 | **squeaky toy**   | +5 Happiness, +5 Mood -10 Hunger.  |
+
+
+---
+
+# 🎲 Random Events
+The end of each action is accompanied by a random event.This is what is most likely to cause you to lose the game.
+|  Event Description                                 | Effect                   |
+| -------------------------------------------------- | ------------------------ |
+| **[Pet] got sick!**                                | Health -20               |
+| **[Pet] is angry!**                                | Mood -20                 |
+| **You forgot to feed [Pet] before going to work!** | Hunger -20               |
+| **You were on a business trip for three days.**    | Happiness -20            |
+| **Your pet had a strange dream...**                | Mood -10                 |
+| **You praised [Pet].**                             | Happiness +15            |
+| **[Pet] found a hidden snack!**                    | Hunger +20               |
+| **[Pet] exercises by itself at home!**             | Health +10               |
+| **[Pet] had a good dream.**                        | Mood +10                 |
+| **You brought [Pet] outside to play today.**       | Happiness +10, Hunger -5 |
 
 
 ---
