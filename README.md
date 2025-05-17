@@ -1,5 +1,7 @@
 # CozyPet
-Virtual pet game based on python
+This project was developed for the **COMP9001 Final Project**.  
+CozyPet is a simple yet engaging command-line game where players can raise and care for a virtual pet. Choose from a variety of animals like a dog, cat, rabbit, chipmunk, or raccoon. Keep your pet alive and happy by feeding it, playing with it, and handling unexpected events.
+
 # 🐾 Virtual Pet Game
 
 A simple text-based **virtual pet simulator** built with Python.  
@@ -22,7 +24,7 @@ Random events may happen every round, so take good care of your furry friend!
 ## 🚀 How to Run
 
 1. Make sure Python 3 is installed on your machine.
-2. Clone or download this repository.
+2. Download this repository.
 3. Run the game:
 
 ```bash
