@@ -10,7 +10,7 @@ CozyPet is a simple yet engaging command-line game where players can raise and c
 - Feed your pet with different food: `kibble`, `tin`, `salmon`, or `medicine`
 - Play with fun toys: `ball`, `laser pointer`, `squeaky toy`
 - Random events (illness, dreams, mood swings, and more)
-- Track pet stats: **Health**, **Hunger**, **Happiness**, **Mood**（0～100）
+- Track pet status: **Health**, **Hunger**, **Happiness**, **Mood**（0～100）
 - Pet can die or run away if not treated well
 
 ---
