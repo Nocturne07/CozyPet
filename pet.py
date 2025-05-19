@@ -86,43 +86,43 @@ class Pet:
         roll = random.randint(1,10)
 
         if roll == 1:
-            print(f"⚠️ {self.name} got sick! Health -20.")
+            print(f"{self.name} got sick! Health -20.")
             self.health -= 20
 
         elif roll == 2:
-            print(f"😡 {self.name} is angry! Mood -20.")
+            print(f"{self.name} is angry! Mood -20.")
             self.mood -= 20
 
         elif roll == 3:
-            print(f"😡 How could you forget to feed {self.name} before going to work? Hungry -20")
+            print(f"How could you forget to feed {self.name} before going to work? Hungry -20")
             self.hunger -= 20
         
         elif roll == 4:
-            print("🚶‍♂️ You were on a business trip for three days. Happiness - 20")
+            print("You were on a business trip for three days. Happiness - 20")
             self.happiness -= 20
 
         elif roll == 5:
-            print("💭 Your pet had a strange dream... Mood dropped. Mood - 20")
+            print("Your pet had a strange dream... Mood dropped. Mood - 20")
             self.mood -= 20
         
         elif roll == 6:
-            print(f"😍 You praised {self.name}. Happiness + 5.")
+            print(f"You praised {self.name}. Happiness + 5.")
             self.happiness = min(100, self.happiness + 5)
         
         elif roll == 7:
-            print(f"🍬 {self.name} found a hidden snack! Hunger + 5.")
+            print(f"{self.name} found a hidden snack! Hunger + 5.")
             self.hunger = min(100, self.hunger + 5)
 
         elif roll == 8:
-            print(f"💪 {self.name} exercises by itself at home! Health + 5.")
+            print(f"{self.name} exercises by itself at home! Health + 5.")
             self.health = min(100, self.health + 5)
         
         elif roll == 9 :
-            print("🌈 Have a good dream! Mood + 5.")
+            print("Have a good dream! Mood + 5.")
             self.mood = min(100, self.mood + 5)
 
         elif roll == 10:
-            print(f"🎡 You brought {self.name} outside to play today.")
+            print(f"You brought {self.name} outside to play today.")
             self.happiness = min(100, self.happiness + 5)
             self.hunger -= 5
     
@@ -132,19 +132,19 @@ class Pet:
         Check whether pet should be alive.
         '''
         if self.hunger <= 0:
-            print(f"😢 {self.name} starved to death.")
+            print(f"{self.name} starved to death.")
             self.alive = False
 
         elif self.happiness <= 0:
-            print(f"😭 {self.name} ran away from sadness.")
+            print(f"{self.name} ran away from sadness.")
             self.alive = False
 
         elif self.health <= 0:
-            print(f"💀 {self.name} died of illness.")
+            print(f"{self.name} died of illness.")
             self.alive = False
 
         elif self.mood <= 0:
-            print(f"😡 {self.name} ran away in anger.")
+            print(f"{self.name} ran away in anger.")
             self.alive = False
 
     def __str__(self):
